@@ -8,7 +8,7 @@ text-align: left;
 padding-bottom: 10%;
 }
 .footer__link:last-of-type{
-padding-bottom: 15%;
+padding-bottom: 24px;
 }
 
 @media (min-width: 768px){
@@ -17,6 +17,6 @@ padding-bottom: 15%;
         font-size: 16px;
         line-height: 18px;
         padding: 0;
-        margin-right: 2.34375%;
+        margin-right: 18px;
     }
 }

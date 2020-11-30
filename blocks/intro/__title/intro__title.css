@@ -6,7 +6,7 @@
     margin: 0;
     letter-spacing: 0em;
     text-align: left;
-    padding-bottom: 12.5%;
+    padding-bottom: 40px;
 }
 @media (min-width: 768px){
 .intro__title{

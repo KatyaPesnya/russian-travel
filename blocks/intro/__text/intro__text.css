@@ -4,11 +4,12 @@
     font-size: 16px;
     line-height: 163%;
     margin: 0; 
-    padding-bottom: 10.3125%;
+    padding-bottom: 34px;
   
 }
 @media (min-width:768px){
     .intro__text{
         max-width: 690px;
+        padding-bottom: 33px;
     }
 }

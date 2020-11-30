@@ -4,7 +4,7 @@
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
-    padding: 5% 5% 10.3125% 5%;
+    padding:  16px 16px 33px 16px;
     position: relative;
     margin: 0 auto;
     text-align: center;
@@ -13,17 +13,17 @@
     .cover__subtitle{
     font-size: 18px;
     line-height: 22px;
-    padding: 4.1666666667% 26.5625% 14.9739583333% 26.5625%;
+    padding: 32px 204px 115px 204px;
     max-width: 390px;
     }
     }
  @media (min-width: 1024px){
     .cover__subtitle{
-    padding: 3.125% 32.421875% 19.04296875% 32.421875%;
+    padding: 32px 332px 195px 332px;
     }
 }
 @media (min-width: 1280px){
     .cover__subtitle{
-        padding: 2.5% 32.1875% 32.421875% 32.1875%;
+        padding: 32px 412px 245px 412px;
         }
 }

@@ -1,7 +1,6 @@
 .lead{
     box-sizing: border-box;
     min-width: 320px;
-    border:1px solid red;
 }
 @media (min-width : 768px){
     .lead {

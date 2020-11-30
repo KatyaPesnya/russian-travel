@@ -4,7 +4,7 @@
   font-size: 40px;
   line-height: 44px;
   text-align: center;
-  padding: 15% 5% 5% 5%;
+  padding: 48px 16px 16px 16px;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
@@ -12,12 +12,17 @@
     font-size: 96px;
     line-height: 100px;
     letter-spacing: 0em;
-    max-width: 93.75%;
-    padding: 6.25% 3.125% 4.1666666667% 3.125%;
+    max-width: 720px;
+    padding: 48px 24px 32px 24px;
   }
+  @media (min-width:1024px){
+    .lead__title{
+      padding: 48px 152px 32px 152px;
+    }
+  } 
 }
 @media (min-width: 1280px) {
     .lead__title {
-        padding-top: 4.375%;
+        padding-top: 56px 280px 32px 280px;
     }
 }

@@ -3,22 +3,22 @@
     display: grid;
     gap: 12px;
     grid-template-columns:  1fr;
-    padding: 0 5%;
+    padding: 0 16px;
     box-sizing: border-box;
-    border:1px solid red;
+    
 }
 @media (min-width: 768px){
     .photo-grid{
         min-width: 768px;
         grid-template-columns: repeat(2, 1fr);
-        padding: 0 3.125%;
+        padding: 0 24px;
     }
     }
  @media (min-width: 1024px){
     .photo-grid{
         min-width: 1024px;
         grid-template-columns: repeat(3, 1fr);
-        padding: 0 4.6875%;
+        padding: 0 48px;
         gap: 14px;
     }
 }

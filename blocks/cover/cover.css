@@ -1,9 +1,9 @@
 .cover{
     min-width: 320px;
     position: relative;
-    padding-top: 20.63%;
+    padding-top: 66px;
     box-sizing: border-box;
-    border:1px solid red;
+   
 }
 
 @media (min-width : 768px){

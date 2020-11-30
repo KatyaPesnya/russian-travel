@@ -2,26 +2,26 @@
   min-width: 320px;
   display: flex;
   flex-direction: column;
-  padding: 20% 5%;
+  padding: 64px 16px;
   box-sizing: border-box;
-  border:1px solid red;
+ 
 }
 @media (min-width: 768px) {
   .intro {
     min-width: 768px;
-    padding: 11.4583333333% 3.125%;
+    padding: 88px 24px;
   }
 }
 @media (min-width: 1024px) {
   .intro {
     min-width: 1024px;
-    padding:  8.984375% 27.9296875%  8.984375% 4.6875%;
+    padding:  92px 44px;
   
   }
 }
 @media (min-width: 1280px) {
   .intro {
     min-width: 1280px;
-    padding-left: 11.5625%;
+    padding-left: 148px;
   }
 }

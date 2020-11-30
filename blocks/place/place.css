@@ -1,9 +1,8 @@
 .place{
    font-display: grid;
     grid-template-columns: 1fr; 
-    height: auto;
     padding: 0 5%;
-    border:1px solid red;
+ 
 }
 @media (min-width: 768px){
     .place{

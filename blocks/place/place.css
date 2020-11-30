@@ -1,0 +1,35 @@
+.place{
+   font-display: grid;
+    grid-template-columns: 1fr; 
+    height: auto;
+    padding: 0 5%;
+    border:1px solid red;
+}
+@media (min-width: 768px){
+    .place{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    padding: 0 3.13%;
+
+    
+}
+
+}
+@media(min-width: 1024px){
+    .place{
+        padding: 0 4.69%;
+
+
+    }
+}
+@media(min-width: 1280px){
+    .place{
+        padding: 0 11.56%;
+
+
+    }
+}
+   
+
+

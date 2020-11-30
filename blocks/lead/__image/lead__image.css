@@ -1,0 +1,18 @@
+.lead__image{
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    height:auto;
+  
+}
+
+@media (min-width: 1024px) {
+    .lead__image {
+        max-width: 90.625%;
+    }
+}
+@media (min-width: 1280px) {
+    .lead__image {
+        max-width: 76.875%;
+    }
+}

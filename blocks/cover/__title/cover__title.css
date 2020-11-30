@@ -1,0 +1,30 @@
+.cover__title{
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+padding: 10.3125% 5% 0 5%;
+margin: 0 auto;
+max-width: 250px;
+position: relative;
+}
+@media (min-width: 768px){
+    .cover__title{
+        font-size: 72px;  
+        line-height: 76px;
+        padding: 14.9739583333% 13.5416666667% 0 13.5416666667%;
+        max-width: 560px;
+    }
+    }
+ @media (min-width: 1024px){
+    .cover__title{
+    padding: 19.04296875% 22.65625% 0 22.65625%;
+    }
+}
+@media (min-width: 1280px){
+    .cover__title{
+        padding: 19.140625% 24.375% 0 24.375%;
+        }
+}

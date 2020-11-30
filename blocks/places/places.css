@@ -1,0 +1,20 @@
+.places{
+    min-width: 320px; 
+    box-sizing: border-box ;
+}
+
+@media (min-width : 768px){
+    .places {
+        min-width: 768px;
+    }
+}
+@media (min-width : 1024px){
+    .places {
+        min-width: 1024px;
+    }
+}
+@media (min-width : 1280px){
+    .places {
+        min-width: 1280px;
+    }
+}

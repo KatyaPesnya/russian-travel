@@ -1,0 +1,26 @@
+.place__image{
+    object-fit: contain;
+    max-width: calc(100% + 32px);
+    height:auto;
+    transform: translate(-16px);
+}
+@media (min-width: 768px){
+    .place__image{
+        max-width: 44.27%;
+        transform: none;
+        grid-row: 2/3;
+        grid-column: 1/2;
+}
+}
+@media(min-width: 1024px){
+    .place__image{
+        max-width: 42.97% ;
+       
+    }
+}
+@media(min-width: 1280px){
+    .place__image{
+        max-width: 35.94% ;
+       
+    }
+}

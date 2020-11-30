@@ -1,0 +1,29 @@
+.footer{
+display: flex;
+flex-direction: column; 
+padding: 20% 0 7.5% 5%; 
+box-sizing: border-box;
+border:1px solid red;
+}
+
+@media (min-width : 768px){
+    .footer{
+        min-width: 768px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 11.4583333333% 3.125% 3.125% 3.125%;  
+    }
+}
+@media (min-width : 1024px){
+    .footer {
+        min-width: 1024px;
+        padding: 8.984375% 4.6875% 2.34375% 4.6875%;
+    }
+}
+@media (min-width : 1280px){
+    .footer{
+        min-width: 1280px;
+    }
+}
+
+

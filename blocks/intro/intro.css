@@ -1,0 +1,27 @@
+.intro {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 20% 5%;
+  box-sizing: border-box;
+  border:1px solid red;
+}
+@media (min-width: 768px) {
+  .intro {
+    min-width: 768px;
+    padding: 11.4583333333% 3.125%;
+  }
+}
+@media (min-width: 1024px) {
+  .intro {
+    min-width: 1024px;
+    padding:  8.984375% 27.9296875%  8.984375% 4.6875%;
+  
+  }
+}
+@media (min-width: 1280px) {
+  .intro {
+    min-width: 1280px;
+    padding-left: 11.5625%;
+  }
+}

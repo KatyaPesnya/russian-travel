@@ -1,0 +1,20 @@
+.lead{
+    box-sizing: border-box;
+    min-width: 320px;
+    border:1px solid red;
+}
+@media (min-width : 768px){
+    .lead {
+        min-width: 768px;
+    }
+}
+@media (min-width : 1024px){
+    .lead {
+        min-width: 1024px;
+    }
+}
+@media (min-width : 1280px){
+    .lead {
+        min-width: 1280px;
+    }
+}

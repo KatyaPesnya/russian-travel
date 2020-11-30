@@ -1,10 +1,10 @@
 .header__logo {
-  min-height: 42px;
-  min-width: 142px;
+  max-height: 42px;
+  max-width: 142px;
 }
 @media (min-width: 768px) {
   .header__logo {
-    min-height: 52px;
-    min-width: 176px;
+    max-height: 52px;
+    max-width: 176px;
   }
 }

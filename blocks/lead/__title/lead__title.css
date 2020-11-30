@@ -23,6 +23,6 @@
 }
 @media (min-width: 1280px) {
     .lead__title {
-        padding-top: 56px 280px 32px 280px;
+        padding: 56px 280px 32px 280px;
     }
 }

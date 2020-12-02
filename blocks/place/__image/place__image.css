@@ -1,13 +1,12 @@
 .place__image{
     object-fit: cover;
-    max-width: calc(100% + 32px);
-    
-    transform: translate(-16px);
+    max-width: 100%;
+   
+   
 }
 @media (min-width: 768px){
     .place__image{
         max-width: 340px;
-        transform: none;
         grid-row: 2/3;
         grid-column: 1/2;
 }

@@ -1,23 +1,23 @@
-.cover{
-    min-width: 320px;
-    position: relative;
-    padding-top: 66px;
-    box-sizing: border-box;
-   
+.cover {
+  position: relative;
+  padding-top: 45px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
 }
 
-@media (min-width : 768px){
-    .cover {
-        min-width: 768px;
-    }
+@media (min-width: 768px) {
+  .cover {
+    min-width: 768px;
+  }
 }
-@media (min-width : 1024px){
-    .cover {
-        min-width: 1024px;
-    }
+@media (min-width: 1024px) {
+  .cover {
+    min-width: 1024px;
+  }
 }
-@media (min-width : 1280px){
-    .cover{
-        min-width: 1280px;
-    }
+@media (min-width: 1280px) {
+  .cover {
+    min-width: 1280px;
+  }
 }

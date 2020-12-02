@@ -1,28 +1,26 @@
-.header__link{
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
-margin-right: 18px;
-color:#fff;
+.header__link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-right: 18px;
+  color: #fff;
 }
 
 .header__link:hover {
-  color: #f7f2f2;
-  opacity: .7;
-  transition: color .1s linear .5s;
-  }
+  text-shadow: -1px 1px 8px #ffc, 1px -1px #fff;
+  cursor: pointer;
+}
 .header__link:last-of-type {
-    margin-right: 0;
-    text-decoration: none;
+  margin-right: 0;
 }
-@media (min-width : 768px){
-    .header__link{ 
-font-size: 24px;
-line-height: 28px;   
-text-align: right;
 
-}
+@media (min-width: 768px) {
+  .header__link {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+  }
 }

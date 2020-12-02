@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .place__info {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-self: start;
+  }
+}

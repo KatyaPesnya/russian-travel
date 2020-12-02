@@ -6,3 +6,5 @@
 1. Для создания сеток используется flex и  grid layout
 2. Создана Nested файловая структура по БЭМ
 3. Сайт написан для 4 разрешений экранов.
+
+### ссылка: https://katyapesnya.github.io/russian-travel/index.html

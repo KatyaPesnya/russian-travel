@@ -1,33 +1,33 @@
-.place { 
-  font-display: grid; 
-  -ms-grid-columns: 1fr; 
-  grid-template-columns: 1fr; 
-  padding-top: 64px; 
-} 
+.place {
+  font-display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  padding-top: 64px;
+}
 .place:not(:first-of-type) { 
-  padding-top: 49px; 
-} 
+  padding-top: 49px;
+}
 @media (min-width: 768px) { 
-  .place { 
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, minmax(min-content, max-content)); 
-    padding: 0 24px; 
-  } 
-} 
-@media (min-width: 768px) { 
-  .place:not(:first-of-type) { 
-    padding-top: 0; 
-  } 
-} 
-@media (min-width: 1024px) { 
-  .place { 
-    padding: 0 48px; 
-  } 
-} 
-@media (min-width: 1280px) { 
-  .place { 
-    padding: 0 148px; 
-  } 
-} 
+  .place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    padding: 0 24px;
+  }
+}
+@media (min-width: 768px) {
+  .place:not(:first-of-type) {
+    padding-top: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .place {
+    padding: 0 48px;
+  }
+}
+@media (min-width: 1280px) {
+  .place {
+    padding: 0 148px;
+  }
+}
  

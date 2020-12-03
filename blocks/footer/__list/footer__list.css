@@ -1,0 +1,11 @@
+.footer__list {
+  padding-bottom: 32px;
+}
+.footer__list:last-of-type {
+  padding-bottom: 48px;
+}
+@media (min-width: 768px) {
+  .footer__list {
+    display: inline;
+  }
+}

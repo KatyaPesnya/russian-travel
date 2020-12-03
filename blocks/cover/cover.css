@@ -1,6 +1,6 @@
 .cover {
   position: relative;
-  padding-top: 45px;
+  padding-top: 66px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 
@@ -8,11 +8,13 @@
 
 @media (min-width: 768px) {
   .cover {
+    padding-top: 90px;
     min-width: 768px;
   }
 }
 @media (min-width: 1024px) {
   .cover {
+    padding-top: 92px;
     min-width: 1024px;
   }
 }

@@ -5,11 +5,10 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  padding-bottom: 32px;
+  text-decoration: none;
+  color: #fff;
 }
-.footer__link:last-of-type {
-  padding-bottom: 24px;
-}
+
 .footer__link:hover {
   text-shadow: -1px 1px 8px #ffc, 1px -1px #fff;
   cursor: pointer;

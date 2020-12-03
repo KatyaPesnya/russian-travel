@@ -1,30 +1,30 @@
-.cover__title{
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: center;
-padding: 33px 16px 16px 16px;
-margin: 0 auto;
-max-width: 250px;
-position: relative;
+.cover__title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 33px 16px 16px 16px;
+  margin: 0 auto;
+  max-width: 250px;
+  position: relative;
 }
-@media (min-width: 768px){
-    .cover__title{
-        font-size: 72px;
-        line-height: 76px;
-        padding: 115px 104px 32px 104px;
-        max-width: 560px;
-    }
-    }
- @media (min-width: 1024px){
-    .cover__title{
+@media (min-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 76px;
+    padding: 115px 104px 32px 104px;
+    max-width: 560px;
+  }
+}
+@media (min-width: 1024px) {
+  .cover__title {
     padding: 195px 232px 32px 232px;
-    }
+  }
 }
-@media (min-width: 1280px){
-    .cover__title{
-        padding: 245px 312px 32px 312px;
-        }
+@media (min-width: 1280px) {
+  .cover__title {
+    padding: 245px 312px 32px 312px;
+  }
 }

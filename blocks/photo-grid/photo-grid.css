@@ -1,5 +1,5 @@
 .photo-grid {
-    display: -ms-grid;
+  display: -ms-grid;
   display: grid;
   gap: 12px;
   -ms-grid-columns: 1fr;

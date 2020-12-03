@@ -7,12 +7,12 @@
   padding: 48px 16px 16px 16px;
   margin: 0 auto;
 }
+
 @media (min-width: 768px) {
   .lead__title {
     font-size: 96px;
     line-height: 100px;
     letter-spacing: 0em;
-    max-width: 720px;
     padding: 48px 24px 32px 24px;
   }
   @media (min-width: 1024px) {

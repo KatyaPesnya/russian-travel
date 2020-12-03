@@ -1,27 +1,28 @@
-.place__url-heading {
-  display: none;
-}
-@media (min-width: 768px) {
-  .place__url-heading {
-    display: block;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0.2em;
-    text-align: left;
-    color: #aaa;
-    margin: 0;
-    padding-bottom: 12px;
-  }
-}
-@media (min-width: 768px) {
-  .place__url-heading:hover {
-    cursor: pointer;
-  }
-}
-@media (min-width: 1024px) {
-  .place__url-heading {
-    line-height: 20px;
-  }
-}
+.place__url-heading { 
+  display: none; 
+} 
+@media (min-width: 768px) { 
+  .place__url-heading { 
+    display: block; 
+    font-size: 12px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 12px; 
+    letter-spacing: 0.2em; 
+    text-align: left; 
+    color: #aaa; 
+    margin: 0; 
+    padding-bottom: 12px; 
+  } 
+} 
+@media (min-width: 768px) { 
+  .place__url-heading:hover { 
+    cursor: pointer; 
+  } 
+} 
+@media (min-width: 1024px) { 
+  .place__url-heading { 
+    line-height: 20px; 
+  } 
+} 
+ 

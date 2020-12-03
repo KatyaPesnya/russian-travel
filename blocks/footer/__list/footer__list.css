@@ -7,5 +7,11 @@
 @media (min-width: 768px) {
   .footer__list {
     display: inline;
+    padding-bottom: 0;
   }
+}
+@media (min-width: 768px) {
+    .footer__list:last-of-type {
+        padding-bottom: 0;
+    }
 }

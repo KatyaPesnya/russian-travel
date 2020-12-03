@@ -11,7 +11,9 @@
 .place__paragraph:nth-of-type(2n) {
   padding: 0 16px;
 }
-
+.place__paragraph:last-of-type{
+  padding: 0 16px;
+}
 @media (min-width: 768px) {
   .place__paragraph {
     padding: 0;
